@@ -1,0 +1,39 @@
+<!-- Student Name: Paul Thottappilly -->
+<!-- Group Members: Hassan Chughtai, Ivory Steed, Tony Le, Shekar Balasubramaniam -->  
+
+<!-- I used the Jan 31th zoom recording as a resource -->
+
+<!-- HTML beginning tag -->
+<html>
+    <!-- header beginning tag -->
+    <head>
+        <!-- Title for the name of the tab-->
+        <title>Exercise 7</title>
+        <!-- header ending tag -->
+    </head>
+    <!-- body beginning tag -->
+    <body>
+        <!-- Requests input from the user through text and has a placeholder with the text "Enter your name" until the user enters their name -->
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <!-- Creates a button right next to the textbox -->
+        <button id="my-button">Click Me</button>
+        <!-- script beginning tag -->
+        <script>
+            // turns the "click me" button into a variable
+        var myButton = document.querySelector('#my-button');
+        // turns the inputted name into a variable 
+        var nameInput = document.querySelector('#name-input');
+        // adds an action that prints an alert after the click that includes the inputted name 
+        myButton.addEventListener('click', function () {
+            // creates an argument to print "Hello + (the inputted name)" if the textbox isn't empty
+            if (nameInput.value !== '') {
+                // alerts the user with the text "Hello + (inputted name)"
+                alert('Hello ' + nameInput.value);
+            }
+            });
+            // script ending tag
+            </script>
+            <!-- body ending tag -->
+            </body>
+            <!-- HTML ending tag -->
+            </html>

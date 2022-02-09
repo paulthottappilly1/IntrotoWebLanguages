@@ -1,0 +1,19 @@
+/* Student Name: Paul Thottappilly 
+Group Members: Hassan Chughtai, Ivory Steed, Tony Le, Shekar Balasubramaniam
+
+I used the Jan 31th zoom recording as a resource */
+
+/* Style sheet for index.html */
+
+body{
+    background-color: darkmagenta;
+    font-family: cursive;
+}
+
+.content{
+    margin-bottom: 12px;
+}
+
+#main-title{
+    text-align: center;
+}
